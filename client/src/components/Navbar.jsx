@@ -26,7 +26,7 @@ function Navbar() {
         <div className="flex">
           <div>
             <button aria-expanded={isOpen} onClick={() => setIsOpen(!isOpen)}>
-              Menu
+              Menuu
             </button>
             {isOpen && (
               <ul aria-label="Menu">
