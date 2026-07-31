@@ -1,0 +1,11 @@
+# Dependencies (Ignores node_modules in both client and server)
+**/node_modules
+*.log
+
+# Sensitive Environment Variables (DB Keys, Secrets)
+**/.env
+**/.env.local
+
+# Build Outputs
+**/dist
+**/build
