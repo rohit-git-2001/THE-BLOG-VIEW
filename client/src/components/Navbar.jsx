@@ -1,6 +1,6 @@
 //
 
-
+// added commment
 function Navbar() {
   return (
     <>
